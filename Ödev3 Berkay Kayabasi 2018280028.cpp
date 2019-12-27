@@ -35,7 +35,7 @@ int main()
 	int sayac1 = 0;
 	string s = okunanSatir[1];
 	string ayrac = ",";
-
+                                                    //https://stackoverflow.com/questions/14265581/parse-split-a-string-in-c-using-string-delimiter-standard-c
 	size_t konumu = 0;
 	string harf;
 	while ((konumu = s.find(ayrac)) != -1) {
@@ -76,25 +76,13 @@ int main()
 				{
 					puan = puan - 1;
 					c++;
-
 				}
-
-
 			}
-
-
-
-
-
 		}
 		sonuclar[z] = puan;
 		z++;
 		puan = 0;
-
 	}
-
-
-
 	int temp;
 	int i, j;
 
